@@ -1,0 +1,15 @@
+{
+  "name": "batch-infrastructure-file",
+  "version": "0.0.0",
+  "description": "File infrastructure for node-batch",
+  "main": "batch-infrastructure-file.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"\""
+  },
+  "author": "Juzer Ali",
+  "license": "MIT"
+}
