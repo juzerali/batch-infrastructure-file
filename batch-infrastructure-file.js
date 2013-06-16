@@ -35,6 +35,10 @@ function InputDatasource (options) {
 
 util.inherits(InputDatasource, EventEmitter);
 
+InputDatasource.prototype.__defineGetter__("callback", function(){
+	return false;
+});
+
 InputDatasource.prototype.separator = function(s){
 	this._separator = s || ",";
 }
